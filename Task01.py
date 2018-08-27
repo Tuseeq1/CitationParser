@@ -22,7 +22,7 @@ for paper in researchpapers:
     elif 2011 <= int(paper['date']) <= 2018:
         n2011 += 1
 
-print("number of papers Published during 1980-1990: ",n1980)
-print("number of papers Published during 1991-2000: ",n1991)
-print("number of papers Published during 2001-2010: ",n2001)
-print("number of papers Published during 2011-oday: ",n2011)
+print("1980-1990 -> ",n1980)
+print("1991-2000 -> ",n1991)
+print("2001-2010 -> ",n2001)
+print("2011-today -> ",n2011)
